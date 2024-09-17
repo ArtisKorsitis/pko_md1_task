@@ -3,7 +3,7 @@
 import random
 import math
 
-# Function to calculate distance between two points
+# Function to calculate distance between two points (Euclidean distance between two points in a 2D space)
 def distance(point1, point2):
     return math.sqrt((point1[0] - point2[0]) ** 2 + (point1[1] - point2[1]) ** 2)
 
