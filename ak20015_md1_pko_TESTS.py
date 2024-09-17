@@ -31,7 +31,7 @@ test_case_specs = [
     (1, 1),    # 1 vehicle     1 customer
 
     # Case when more vehicles than customers
-    # Best Cost: 44.72 => same as (1, 1), meaning: only one vehicle is used
+    # Expected: Best Cost: 44.72 => same as (1, 1), meaning: only one vehicle is used
     (4, 1),    # 4 vehicles    1 customer
 
     # Normal cases
