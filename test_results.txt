@@ -1,0 +1,445 @@
+Running Test Case 1: 0 vehicle(s), 0 customer(s)
+Location Tree:
+Depot: (0, 0)
+
+No vehicles and no customers. Nothing to optimize.
+Test Case 1 completed. Best Cost: 0
+Execution Time: 0.00 seconds
+
+Best Solution: []
+
+Running Test Case 2: 1 vehicle(s), 0 customer(s)
+Location Tree:
+Depot: (0, 0)
+
+1 vehicle but no customers to serve.
+Test Case 2 completed. Best Cost: 0
+Execution Time: 0.00 seconds
+
+Best Solution: [[]]
+
+Running Test Case 3: 0 vehicle(s), 1 customer(s)
+Location Tree:
+Depot: (0, 0)
+Customer 1: (10, 20)
+
+1 customer(s), but no vehicles available. No solution possible.
+Test Case 3 completed. Best Cost: inf
+Execution Time: 0.00 seconds
+
+Best Solution: []
+
+Running Test Case 4: 1 vehicle(s), 1 customer(s)
+Location Tree:
+Depot: (0, 0)
+Customer 1: (10, 20)
+
+1 vehicle and 1 customer. Trivial solution.
+Test Case 4 completed. Best Cost: 44.72
+Execution Time: 0.00 seconds
+
+Best Solution: [[1]]
+
+Running Test Case 5: 4 vehicle(s), 1 customer(s)
+Location Tree:
+Depot: (0, 0)
+Customer 1: (10, 20)
+
+Test Case 5 completed. Best Cost: 44.72
+Execution Time: 0.02 seconds
+
+Best Solution: [[1], [], [], []]
+
+Running Test Case 6: 1 vehicle(s), 5 customer(s)
+Location Tree:
+Depot: (0, 0)
+Customer 1: (10, 20)
+Customer 2: (20, 30)
+Customer 3: (30, 40)
+Customer 4: (40, 50)
+Customer 5: (50, 60)
+
+Test Case 6 completed. Best Cost: 157.03
+Execution Time: 0.04 seconds
+
+Best Solution: [[1, 2, 3, 4, 5]]
+
+Running Test Case 7: 2 vehicle(s), 5 customer(s)
+Location Tree:
+Depot: (0, 0)
+Customer 1: (10, 20)
+Customer 2: (20, 30)
+Customer 3: (30, 40)
+Customer 4: (40, 50)
+Customer 5: (50, 60)
+
+Test Case 7 completed. Best Cost: 228.95
+Execution Time: 0.06 seconds
+
+Best Solution: [[5, 4, 3], [1, 2]]
+
+Running Test Case 8: 3 vehicle(s), 5 customer(s)
+Location Tree:
+Depot: (0, 0)
+Customer 1: (10, 20)
+Customer 2: (20, 30)
+Customer 3: (30, 40)
+Customer 4: (40, 50)
+Customer 5: (50, 60)
+
+Test Case 8 completed. Best Cost: 301.19
+Execution Time: 0.07 seconds
+
+Best Solution: [[2, 3], [4, 5], [1]]
+
+Running Test Case 9: 1 vehicle(s), 10 customer(s)
+Location Tree:
+Depot: (0, 0)
+Customer 1: (5, 10)
+Customer 2: (10, 15)
+Customer 3: (15, 20)
+Customer 4: (20, 25)
+Customer 5: (25, 30)
+Customer 6: (30, 35)
+Customer 7: (35, 40)
+Customer 8: (40, 45)
+Customer 9: (45, 50)
+Customer 10: (50, 55)
+
+Test Case 9 completed. Best Cost: 149.32
+Execution Time: 0.07 seconds
+
+Best Solution: [[3, 4, 5, 8, 10, 9, 7, 6, 2, 1]]
+
+Running Test Case 10: 2 vehicle(s), 10 customer(s)
+Location Tree:
+Depot: (0, 0)
+Customer 1: (5, 10)
+Customer 2: (10, 15)
+Customer 3: (15, 20)
+Customer 4: (20, 25)
+Customer 5: (25, 30)
+Customer 6: (30, 35)
+Customer 7: (35, 40)
+Customer 8: (40, 45)
+Customer 9: (45, 50)
+Customer 10: (50, 55)
+
+Test Case 10 completed. Best Cost: 227.44
+Execution Time: 0.07 seconds
+
+Best Solution: [[2, 4, 5, 3, 1], [6, 7, 9, 10, 8]]
+
+Running Test Case 11: 3 vehicle(s), 10 customer(s)
+Location Tree:
+Depot: (0, 0)
+Customer 1: (5, 10)
+Customer 2: (10, 15)
+Customer 3: (15, 20)
+Customer 4: (20, 25)
+Customer 5: (25, 30)
+Customer 6: (30, 35)
+Customer 7: (35, 40)
+Customer 8: (40, 45)
+Customer 9: (45, 50)
+Customer 10: (50, 55)
+
+Test Case 11 completed. Best Cost: 305.53
+Execution Time: 0.07 seconds
+
+Best Solution: [[5, 7, 6, 4], [9, 10, 8], [2, 3, 1]]
+
+Running Test Case 12: 1 vehicle(s), 30 customer(s)
+Location Tree:
+Depot: (0, 0)
+Customer 1: (2, 3)
+Customer 2: (5, 10)
+Customer 3: (7, 15)
+Customer 4: (8, 20)
+Customer 5: (10, 25)
+Customer 6: (13, 30)
+Customer 7: (15, 35)
+Customer 8: (18, 40)
+Customer 9: (20, 45)
+Customer 10: (22, 50)
+Customer 11: (25, 55)
+Customer 12: (28, 60)
+Customer 13: (30, 65)
+Customer 14: (33, 70)
+Customer 15: (35, 75)
+Customer 16: (37, 80)
+Customer 17: (40, 85)
+Customer 18: (43, 90)
+Customer 19: (45, 95)
+Customer 20: (48, 100)
+Customer 21: (50, 105)
+Customer 22: (53, 110)
+Customer 23: (55, 115)
+Customer 24: (57, 120)
+Customer 25: (60, 125)
+Customer 26: (63, 130)
+Customer 27: (65, 135)
+Customer 28: (67, 140)
+Customer 29: (70, 145)
+Customer 30: (73, 150)
+
+Test Case 12 completed. Best Cost: 1032.95
+Execution Time: 0.16 seconds
+
+Best Solution: [[1, 5, 4, 2, 10, 9, 29, 17, 18, 23, 21, 6, 30, 25, 22, 20, 27, 11, 15, 16, 28, 26, 24, 19, 12, 14, 13, 8, 3, 7]]
+
+Running Test Case 13: 2 vehicle(s), 30 customer(s)
+Location Tree:
+Depot: (0, 0)
+Customer 1: (2, 3)
+Customer 2: (5, 10)
+Customer 3: (7, 15)
+Customer 4: (8, 20)
+Customer 5: (10, 25)
+Customer 6: (13, 30)
+Customer 7: (15, 35)
+Customer 8: (18, 40)
+Customer 9: (20, 45)
+Customer 10: (22, 50)
+Customer 11: (25, 55)
+Customer 12: (28, 60)
+Customer 13: (30, 65)
+Customer 14: (33, 70)
+Customer 15: (35, 75)
+Customer 16: (37, 80)
+Customer 17: (40, 85)
+Customer 18: (43, 90)
+Customer 19: (45, 95)
+Customer 20: (48, 100)
+Customer 21: (50, 105)
+Customer 22: (53, 110)
+Customer 23: (55, 115)
+Customer 24: (57, 120)
+Customer 25: (60, 125)
+Customer 26: (63, 130)
+Customer 27: (65, 135)
+Customer 28: (67, 140)
+Customer 29: (70, 145)
+Customer 30: (73, 150)
+
+Test Case 13 completed. Best Cost: 1037.03
+Execution Time: 0.13 seconds
+
+Best Solution: [[28, 29, 24, 20, 15, 16, 30, 26, 25, 27, 17, 13, 3, 2, 1], [23, 21, 12, 10, 7, 11, 18, 19, 22, 5, 6, 9, 14, 8, 4]]
+
+Running Test Case 14: 3 vehicle(s), 30 customer(s)
+Location Tree:
+Depot: (0, 0)
+Customer 1: (2, 3)
+Customer 2: (5, 10)
+Customer 3: (7, 15)
+Customer 4: (8, 20)
+Customer 5: (10, 25)
+Customer 6: (13, 30)
+Customer 7: (15, 35)
+Customer 8: (18, 40)
+Customer 9: (20, 45)
+Customer 10: (22, 50)
+Customer 11: (25, 55)
+Customer 12: (28, 60)
+Customer 13: (30, 65)
+Customer 14: (33, 70)
+Customer 15: (35, 75)
+Customer 16: (37, 80)
+Customer 17: (40, 85)
+Customer 18: (43, 90)
+Customer 19: (45, 95)
+Customer 20: (48, 100)
+Customer 21: (50, 105)
+Customer 22: (53, 110)
+Customer 23: (55, 115)
+Customer 24: (57, 120)
+Customer 25: (60, 125)
+Customer 26: (63, 130)
+Customer 27: (65, 135)
+Customer 28: (67, 140)
+Customer 29: (70, 145)
+Customer 30: (73, 150)
+
+Test Case 14 completed. Best Cost: 1169.58
+Execution Time: 0.13 seconds
+
+Best Solution: [[22, 26, 19, 25, 11, 15, 13, 7, 3, 2], [28, 29, 23, 18, 16, 17, 20, 10, 8, 5], [30, 24, 21, 27, 14, 12, 9, 6, 4, 1]]
+
+Running Test Case 15: 1 vehicle(s), 50 customer(s)
+Location Tree:
+Depot: (0, 0)
+Customer 1: (1, 5)
+Customer 2: (2, 9)
+Customer 3: (3, 12)
+Customer 4: (6, 15)
+Customer 5: (7, 18)
+Customer 6: (8, 22)
+Customer 7: (10, 25)
+Customer 8: (13, 30)
+Customer 9: (15, 32)
+Customer 10: (17, 35)
+Customer 11: (20, 40)
+Customer 12: (23, 42)
+Customer 13: (25, 45)
+Customer 14: (27, 50)
+Customer 15: (30, 55)
+Customer 16: (32, 58)
+Customer 17: (35, 60)
+Customer 18: (37, 65)
+Customer 19: (40, 70)
+Customer 20: (42, 75)
+Customer 21: (45, 80)
+Customer 22: (47, 85)
+Customer 23: (50, 90)
+Customer 24: (55, 95)
+Customer 25: (60, 100)
+Customer 26: (63, 105)
+Customer 27: (65, 110)
+Customer 28: (67, 115)
+Customer 29: (70, 120)
+Customer 30: (73, 125)
+Customer 31: (75, 130)
+Customer 32: (77, 135)
+Customer 33: (80, 140)
+Customer 34: (83, 145)
+Customer 35: (85, 150)
+Customer 36: (87, 155)
+Customer 37: (90, 160)
+Customer 38: (92, 165)
+Customer 39: (94, 170)
+Customer 40: (97, 175)
+Customer 41: (100, 180)
+Customer 42: (102, 185)
+Customer 43: (105, 190)
+Customer 44: (108, 195)
+Customer 45: (110, 200)
+Customer 46: (115, 205)
+Customer 47: (120, 210)
+Customer 48: (140, 230)
+Customer 49: (170, 260)
+Customer 50: (190, 280)
+
+Test Case 15 completed. Best Cost: 3380.53
+Execution Time: 0.27 seconds
+
+Best Solution: [[2, 10, 30, 44, 40, 23, 24, 41, 4, 26, 35, 43, 19, 3, 27, 7, 16, 28, 20, 14, 12, 25, 34, 49, 42, 46, 31, 37, 32, 38, 45, 36, 47, 48, 29, 8, 13, 6, 9, 11, 1, 39, 50, 33, 22, 15, 5, 21, 17, 18]]
+
+Running Test Case 16: 2 vehicle(s), 50 customer(s)
+Location Tree:
+Depot: (0, 0)
+Customer 1: (1, 5)
+Customer 2: (2, 9)
+Customer 3: (3, 12)
+Customer 4: (6, 15)
+Customer 5: (7, 18)
+Customer 6: (8, 22)
+Customer 7: (10, 25)
+Customer 8: (13, 30)
+Customer 9: (15, 32)
+Customer 10: (17, 35)
+Customer 11: (20, 40)
+Customer 12: (23, 42)
+Customer 13: (25, 45)
+Customer 14: (27, 50)
+Customer 15: (30, 55)
+Customer 16: (32, 58)
+Customer 17: (35, 60)
+Customer 18: (37, 65)
+Customer 19: (40, 70)
+Customer 20: (42, 75)
+Customer 21: (45, 80)
+Customer 22: (47, 85)
+Customer 23: (50, 90)
+Customer 24: (55, 95)
+Customer 25: (60, 100)
+Customer 26: (63, 105)
+Customer 27: (65, 110)
+Customer 28: (67, 115)
+Customer 29: (70, 120)
+Customer 30: (73, 125)
+Customer 31: (75, 130)
+Customer 32: (77, 135)
+Customer 33: (80, 140)
+Customer 34: (83, 145)
+Customer 35: (85, 150)
+Customer 36: (87, 155)
+Customer 37: (90, 160)
+Customer 38: (92, 165)
+Customer 39: (94, 170)
+Customer 40: (97, 175)
+Customer 41: (100, 180)
+Customer 42: (102, 185)
+Customer 43: (105, 190)
+Customer 44: (108, 195)
+Customer 45: (110, 200)
+Customer 46: (115, 205)
+Customer 47: (120, 210)
+Customer 48: (140, 230)
+Customer 49: (170, 260)
+Customer 50: (190, 280)
+
+Test Case 16 completed. Best Cost: 2435.02
+Execution Time: 0.19 seconds
+
+Best Solution: [[38, 45, 31, 30, 36, 41, 35, 12, 13, 9, 7, 21, 25, 33, 42, 16, 2, 1, 3, 5, 8, 11, 14, 6, 4], [29, 49, 50, 46, 44, 34, 47, 40, 27, 26, 37, 32, 48, 39, 43, 24, 28, 20, 17, 18, 22, 19, 23, 15, 10]]
+
+Running Test Case 17: 3 vehicle(s), 50 customer(s)
+Location Tree:
+Depot: (0, 0)
+Customer 1: (1, 5)
+Customer 2: (2, 9)
+Customer 3: (3, 12)
+Customer 4: (6, 15)
+Customer 5: (7, 18)
+Customer 6: (8, 22)
+Customer 7: (10, 25)
+Customer 8: (13, 30)
+Customer 9: (15, 32)
+Customer 10: (17, 35)
+Customer 11: (20, 40)
+Customer 12: (23, 42)
+Customer 13: (25, 45)
+Customer 14: (27, 50)
+Customer 15: (30, 55)
+Customer 16: (32, 58)
+Customer 17: (35, 60)
+Customer 18: (37, 65)
+Customer 19: (40, 70)
+Customer 20: (42, 75)
+Customer 21: (45, 80)
+Customer 22: (47, 85)
+Customer 23: (50, 90)
+Customer 24: (55, 95)
+Customer 25: (60, 100)
+Customer 26: (63, 105)
+Customer 27: (65, 110)
+Customer 28: (67, 115)
+Customer 29: (70, 120)
+Customer 30: (73, 125)
+Customer 31: (75, 130)
+Customer 32: (77, 135)
+Customer 33: (80, 140)
+Customer 34: (83, 145)
+Customer 35: (85, 150)
+Customer 36: (87, 155)
+Customer 37: (90, 160)
+Customer 38: (92, 165)
+Customer 39: (94, 170)
+Customer 40: (97, 175)
+Customer 41: (100, 180)
+Customer 42: (102, 185)
+Customer 43: (105, 190)
+Customer 44: (108, 195)
+Customer 45: (110, 200)
+Customer 46: (115, 205)
+Customer 47: (120, 210)
+Customer 48: (140, 230)
+Customer 49: (170, 260)
+Customer 50: (190, 280)
+
+Test Case 17 completed. Best Cost: 2275.94
+Execution Time: 0.20 seconds
+
+Best Solution: [[35, 47, 40, 37, 46, 27, 30, 24, 29, 20, 21, 16, 15, 13, 10, 2, 1], [50, 48, 45, 41, 49, 43, 38, 33, 17, 22, 12, 11, 8, 4, 5, 6, 3], [44, 42, 39, 32, 36, 31, 34, 28, 19, 18, 26, 25, 23, 14, 9, 7]]
+
